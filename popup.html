@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptVault</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PromptVault</h1>
+        <p class="subtitle">Your Prompt Library</p>
+
+        <div class="form">
+            <input type="text" id="title" placeholder="Prompt title">
+            <textarea id="body" placeholder="Enter your prompt..."></textarea>
+            <button id="saveBtn">Save Prompt</button>
+            <button id="cancelBtn" style="display:none;">Cancel</button>
+        </div>
+
+        <hr>
+
+        <h2>Saved Prompts</h2>
+        <div id="promptList"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
